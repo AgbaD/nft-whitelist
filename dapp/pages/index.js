@@ -26,7 +26,7 @@ export default function Home() {
 
     const { chainId } = await web3Provider.getNetwork();
     if (chainId !== 80001) {
-      window.alert("Change the network to Polygon Mumbai");
+      window.alert("Change network to Polygon Mumbai");
       throw new Error("Change network to Polygon Mumbai");
     }
 
@@ -64,7 +64,6 @@ export default function Home() {
         WHITELIST_CONTRACT_ADDRESS, abi, signer
       )
       const _numberOfWhitelisted = await whitelistContract.numAddressesWhitelisted();
-      console.log(_numberOfWhitelisted._hex);
       setNumberOfWhitelisted(_numberOfWhitelisted._hex);
     } catch (error) {
       console.error(error);
