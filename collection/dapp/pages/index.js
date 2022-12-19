@@ -28,6 +28,7 @@ export default function Home() {
       window.alert("You successfully minted a Prytoc Dev!");
     } catch (error) {
       console.error(error)
+      window.alert("You could not mint a  Prytoc Dev!")
     }
   }
 
