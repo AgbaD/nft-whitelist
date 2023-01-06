@@ -1,0 +1,1 @@
+token and ICO for Prytoc Dev

@@ -1,0 +1,3 @@
+export const NFT_CONTRACT_ADDRESS = "0xCaEEBFA87749f678B53e9a743237b3d3beEACbb1";
+export const TOKEN_CONTRACT_ADDRESS = "0x7bc6Dd02a365D2f2eee99C1eCBD2e94d083E5Ba2";
+export * from './abi';
