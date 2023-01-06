@@ -1,1 +1,0 @@
-simple nft whitelist smart contrant and frontend interface

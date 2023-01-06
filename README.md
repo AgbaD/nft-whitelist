@@ -1,4 +1,6 @@
-nft smart contract and website
+Collection of smart contracts
 
-Also contains whitelist smart contract for nft
-
+- NFT Whitelist & Collection
+- Initial coin offering
+- Decentralized autonomous organisation
+- Decentralized exchange (UNISWAP V1)
